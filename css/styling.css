@@ -1,0 +1,90 @@
+/* CSS Document */
+.border{
+	border-style:solid;
+	border-width:thin;
+	border-color:#666;	
+}
+.border_round{
+	border-style:solid;
+	border-width:thin;
+	border-color:#666;	
+	border-radius:15px;
+}
+.main_heading
+{
+	
+	font-size:28px;
+	font-weight:bolder;
+	color:#00F;
+}
+.sub_heading
+{
+	font-size:24px;
+	font-weight:bold;
+	color:#03F;
+}
+.normal_text
+{
+	font-size:20px;
+	font-weight:500;
+}
+.msg
+{
+	font-size:24px;
+	font-weight:bold;
+	color:#300;
+}
+.star
+{
+	font-size:24px;
+	font-weight:bold;
+	color:#F00;
+}
+.textbox
+{
+	border: 2px solid black;
+	width:96%;
+	background-color:#FFFFB0;
+	height:25px;
+	border-radius:10px;	
+}
+.textarea
+{
+	border: 2px solid black;
+	width:96%;
+	background-color:#FFFFB0;
+	height:100px;
+	border-radius:10px;	
+}
+
+.buttonstyle
+{ 
+	background-color:#73C6E6;
+	border:#06F 1px solid;
+	border-radius:20px;
+	color:#FFF;
+	padding:5px 10px;
+	font-weight:bold;
+	cursor:pointer;
+}
+.buttonstyle:hover
+{ 
+	
+	border:#06F 1px solid;
+	 cursor: pointer;
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  
+	background-color:#2C9398;
+	color:#FFF;
+}
+.error
+{
+	color:#F00;
+	font-size:12px;
+	font-weight:100;
+}
+.circle
+{
+	border-radius: 50px 50px 50px 50px;
+}
